@@ -10,7 +10,39 @@ jQuery(window).load(function(){
 
 
 $(document).ready(function(){
+	var i = 0;
+	function rotate() {
+		i = i%4;
+		if(i === 0)
+		{
+			$(".rw-words-fourth").fadeOut("slow", function(){
+				$(".rw-words-first").fadeIn("slow");
+			});
 
+		}
+		else if(i === 1)
+		{
+			$(".rw-words-first").fadeOut("slow", function(){
+				$(".rw-words-second").fadeIn("slow");
+			});
+		}
+		else if(i === 2)
+		{
+			$(".rw-words-second").fadeOut("slow", function(){
+				$(".rw-words-third").fadeIn("slow");
+			});
+		}
+		else if(i === 3)
+		{
+			$(".rw-words-third").fadeOut("slow", function(){
+				$(".rw-words-fourth").fadeIn("slow");
+			});
+		}
+		++i;
+	}
+	setInterval(function(){
+		rotate();
+	}, 3000);
 	/* ========================================================================= */
 	/*	Menu item highlighting
 	/* ========================================================================= */
@@ -122,13 +154,13 @@ function initialize() {
     var myLatLng = new google.maps.LatLng(22.402789, 91.822156);
 
     var mapOptions = {
-        zoom: 14,
+        zoom: 5,
         center: myLatLng,
-        disableDefaultUI: true,
-        scrollwheel: false,
-        navigationControl: false,
+        disableDefaultUI: false,
+        scrollwheel: true,
+        navigationControl: true,
         mapTypeControl: false,
-        scaleControl: false,
+        scaleControl: true,
         draggable: false,
         mapTypeControlOptions: {
             mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'roadatlas']
@@ -138,8 +170,15 @@ function initialize() {
     var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
 
 
-    var marker = new google.maps.Marker({
+    var marker1 = new google.maps.Marker({
         position: myLatLng,
+        map: map,
+        icon: 'img/location-icon.png',
+        title: '',
+    });
+
+    var marker2 = new google.maps.Marker({
+        position: new google.maps.LatLng(-33.950198, 151.259302),
         map: map,
         icon: 'img/location-icon.png',
         title: '',

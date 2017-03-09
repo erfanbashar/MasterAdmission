@@ -377,7 +377,7 @@ top: -8px;
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 100%;
+	width: 84%;
 	height: 100%;
 	color: #fff;
 	
@@ -571,7 +571,7 @@ top: -8px;
 
 .contact-form {}
 
-.contact-form h3 {
+  .contact-form h3 {
   color: #062033;
   font-size: 24px;
   font-weight: 700;

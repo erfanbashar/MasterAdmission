@@ -3,18 +3,22 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Themefisher.Free Bootstrap3 based HTML5 Templates</title>        
+        <title>MasterAdmission.com</title>        
         <meta name="description" content="Blue One Page Creative HTML5 Template">
         <meta name="keywords" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
-        <meta name="author" content="Muhammad Morshed">
+        <meta name="author" content="Erfan Bashar, Shamir Towsif">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Pacifico|Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/jquery.fancybox.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/media-queries.css">
+
+        <!-- Developer CSS Start (Other than template)-->
+        <link rel="stylesheet" href="css/developer-choice.css">
+        <!-- Developer CSS End (Other than template)-->
         <script src="js/modernizr-2.6.2.min.js"></script>
     </head>
     <body id="body">
@@ -44,10 +48,10 @@
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav">
                         <li class="current"><a href="#body">Home</a></li>
-                        <li><a href="#features">Features</a></li>
+                        <li><a href="#features">Mission</a></li>
                         <li><a href="#works">Work</a></li>
                         <li><a href="#team">Team</a></li>
-                        <li><a href="http://google.com">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
                 <!-- /main nav -->
@@ -64,14 +68,14 @@
         Home Slider
         ==================================== -->
         
-        <section id="slider">
+        <section id="slider" class="rw-wrapper">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             
                 <!-- Indicators bullet -->
-                <ol class="carousel-indicators">
+                <!-- <ol class="carousel-indicators">
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                </ol>
+                </ol> -->
                 <!-- End Indicators bullet -->              
                 
                 <!-- Wrapper for slides -->
@@ -80,21 +84,40 @@
                     <!-- single slide -->
                     <div class="item active" style="background-image: url(img/banner.jpg);">
                         <div class="carousel-caption">
+                            <!--
                             <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Brandi</span>!</h2>
+                            --> 
+                            <h3 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">
+                                <div style="font-family: Pacifico, cursive; font-size: 1em;">
+                                    MasterAdmission.com
+                                </div>
+                                <div>
+                                    <div class="rw-words">
+                                        <span class="rw-words-first">Is <span class="color">Interactive</span></span>
+                                        <span class="rw-words-second">Is <span class="color">Adaptive</span></span>
+                                        <span class="rw-words-third">Is <span class="color">Highly Personalized</span></span>
+                                        <span class="rw-words-fourth">Is <span class="color">Curriculum Based</span></span>
+                                    </div>
+                                </div>
+                                <span>Learning Platform.</span>
+                            </h3>
+                            <!--
                             <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">/creative</span> one page template.</h3>
+                            -->
+                            <!--
                             <p data-wow-duration="1000ms" class="wow slideInRight animated">We are a team of professionals</p>
-                            
+                            -->
                             <ul class="social-links text-center">
                                 <li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
                                 <li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
                                 <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-                                <li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
                             </ul>
                         </div>
                     </div>
                     <!-- end single slide -->
                     
                     <!-- single slide -->
+                    <!--
                     <div class="item" style="background-image: url(img/banner.jpg);">
                         <div class="carousel-caption">
                             <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Team</span>!</h2>
@@ -109,6 +132,7 @@
                             </ul>
                         </div>
                     </div>
+                    -->
                     <!-- end single slide -->
                     
                 </div>
@@ -122,7 +146,7 @@
         ==================================== -->
         
         <!--
-        Features
+        Start Mission
         ==================================== -->
         
         <section id="features" class="features">
@@ -130,61 +154,83 @@
                 <div class="row">
                 
                     <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
-                        <h2>Features</h2>
+                        <h2>Mission</h2>
                         <div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
                     </div>
 
-                    <!-- service item -->
-                    <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
+                    <!-- service item: Mission -->
+                    <div class="col-md-3 wow fadeInLeft" data-wow-duration="500ms">
                         <div class="service-item">
                             <div class="service-icon">
-                                <i class="fa fa-github fa-2x"></i>
+                                <i class="fa fa-bookmark fa-2x"></i>
                             </div>
                             
                             <div class="service-desc">
-                                <h3>Branding</h3>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                                <h3>Our Mission</h3>
+                                <p>Provide the best quality education that results in actual learning of the designated materials throughout the global student community by incorporating background, detailed analysis, tips and tricks, shortcuts, recalling techniques and in-depth understanding of each and every material in a way that captivates their whole-hearted attention.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-bookmark-o fa-2x"></i>
+                            </div>
+                            
+                            <div class="service-desc">
+                                <h3>Our Vision</h3>
+                                <p>Provide the best quality education that results in actual learning of the designated materials throughout the global student community by incorporating background, detailed analysis, tips and tricks, shortcuts, recalling techniques and in-depth understanding of each and every material in a way that captivates their whole-hearted attention.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end service item: Mission -->
+                    
+                    <!-- service item -->
+                    <div class="col-md-3 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="900ms">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-pencil-square fa-2x"></i>
+                            </div>
+                            
+                            <div class="service-desc">
+                                <h3>Primary Objectives</h3>
+                                <ul>
+                                    <li>To create, (and update) a central base of knowledge for the youth</li>
+                                    <li>Inspire and pave the way to achieve excellence in education</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                     <!-- end service item -->
                     
                     <!-- service item -->
-                    <div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+                    <div class="col-md-3 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="1300ms">
                         <div class="service-item">
                             <div class="service-icon">
-                                <i class="fa fa-pencil fa-2x"></i>
+                                <i class="fa fa-pencil-square-o fa-2x"></i>
                             </div>
                             
                             <div class="service-desc">
-                                <h3>Development</h3>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                                <h3>Secondary Objectives</h3>
+                                <ul>
+                                    <li>Use the profits from our primary objectives to facilitate education of the poor.
+                                    </li>
+                                    <li>Increase internet reach</li>
+                                    <li>Actively Support UN’s development Goal No. 4 Quality Education.</li>
+                                    <li>Overall Support 5 out 17 UN Development Goals.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                     <!-- end service item -->
-                    
-                    <!-- service item -->
-                    <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fa fa-bullhorn fa-2x"></i>
-                            </div>
-                            
-                            <div class="service-desc">
-                                <h3>Consulting</h3>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end service item -->
-                        
+
                 </div>
             </div>
         </section>
         
         <!--
-        End Features
+        End Mission
         ==================================== -->
         
         
@@ -292,6 +338,78 @@
                     </figcaption>
                 </figure>
                 
+                <figure class="mix work-item branding">
+                    <img src="img/works/item-1.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                        <h4>Labore et dolore magnam</h4>
+                        <p>Photography</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="mix work-item web">
+                    <img src="img/works/item-2.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                        <h4>Labore et dolore magnam</h4>
+                        <p>Photography</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="mix work-item logo-design">
+                    <img src="img/works/item-3.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-3.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                        <h4>Labore et dolore magnam</h4>
+                        <p>Photography</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="mix work-item photography">
+                    <img src="img/works/item-4.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                        <h4>Labore et dolore magnam</h4>
+                        <p>Photography</p>
+                    </figcaption>
+                </figure>
+            
+                <figure class="mix work-item branding">
+                    <img src="img/works/item-5.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-5.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                        <h4>Labore et dolore magnam</h4>
+                        <p>Photography</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="mix work-item web">
+                    <img src="img/works/item-6.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-6.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                        <h4>Labore et dolore magnam</h4>
+                        <p>Photography</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="mix work-item logo-design">
+                    <img src="img/works/item-7.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-7.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                        <h4>Labore et dolore magnam</h4>
+                        <p>Photography</p>
+                    </figcaption>
+                </figure>
+                
+                <figure class="mix work-item photography">
+                    <img src="img/works/item-8.jpg" alt="">
+                    <figcaption class="overlay">
+                        <a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-8.jpg"><i class="fa fa-eye fa-lg"></i></a>
+                        <h4>Labore et dolore magnam</h4>
+                        <p>Photography</p>
+                    </figcaption>
+                </figure>
+
             </div>
         
 
